@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contacts</title>
+<meta charset="utf-8">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+<meta name="description" content="Your description">
+<meta name="keywords" content="Your keywords">
+<meta name="author" content="Your name">
+<meta name = "format-detection" content = "telephone=no" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!--CSS-->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/style.css">
+<!--JS-->
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/forms.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script>
+    function goToByScroll(id){$('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');}
+</script> 
+
+<!--[if lt IE 8]>
+		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div>  
+<![endif]-->
+<!--[if lt IE 9]>
+  <link rel="stylesheet" href="css/ie.css">
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="global">
+<!--header-->
+<header>
+    <div class="container">
+         <div class="navbar navbar_ clearfix">
+            <div class="navbar-inner">      
+                  <div class="clearfix">
+                        <h1 class="brand"><a href="index.html"><img src="img/logo.png" alt=""></a></h1>
+                        <div class="nav-collapse nav-collapse_ collapse">
+                        	<ul class="nav sf-menu clearfix">
+                        	  <li><a href="index.html">Home</a></li> 
+                              <li class="sub-menu"><a href="index-1.html">Overview<span></span></a>
+                                <ul class="submenu">
+                                    <li><a href="#">Services List</a></li>
+                                    <li><a href="#">Overview<span></span></a>
+                                        <ul class="submenu-1">
+                                            <li><a href="#">Management</a></li>
+                                            <li><a href="#">Marketing</a></li>
+                                            <li><a href="#">Training</a></li>
+                                            <li><a href="#">Development</a></li>
+                                            <li><a href="#">Other</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">FAQs</a></li>
+                                    <li><a href="#">Media</a></li>
+                                    <li><a href="#">Team</a></li>
+                                </ul>
+                              </li> 
+                              <li><a href="index-2.html">Services</a></li> 
+                              <li><a href="index-3.html">Blog</a></li> 
+                              <li class="active"><a href="index-4.html">Contacts</a></li>                       
+                            </ul>
+                        </div>
+                         <form id="search" class="search" action="search.php" method="GET" accept-charset="utf-8">
+                        	 <input type="text" onfocus="if(this.value =='Search...' ) this.value=''" onblur="if(this.value=='') this.value='Search...'" value="Search..." name="s">
+                             <a href="#" onClick="document.getElementById('search').submit()"><img src="img/magnify.png" alt=""></a>
+                         </form>                                                                                                                
+                  </div>
+             </div>  
+         </div>
+    </div>
+</header>
+<!--content-->
+<div class="container padBot"> 
+        <div class="row">
+        <article class="span12 border2">
+            <h2>Contact us</h2>
+            <figure class="map">
+                <iframe src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brooklyn,+New+York,+NY,+United+States&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=61.282355,146.513672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;ll=40.649974,-73.950005&amp;spn=0.01628,0.025663&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+            </figure>
+        </article>
+        <article class="span4">
+            <h2>Address</h2>
+            <div class="info">
+                <p><span>8901 Marmora Road,<br>Glasgow, D04 89GR.</span></p>
+                <p><em>Freephone:</em>+1 800 559 6580</p>
+                <p><em>Telephone:</em>+1 800 603 6035</p>
+                <p><em>FAX:</em>+1 800 889 9898</p>
+                <p>E-mail: <a href="#">mail@demolink.org</a></p>                                                                            
+            </div>
+            <div class="info">
+                <p><span>9863 - 9867 Mill Road,<br>Cambridge, MG09 99HT.</span></p>
+                <p><em>Freephone:</em>+1 800 559 6580</p>
+                <p><em>Telephone:</em>+1 800 603 6035</p>
+                <p><em>FAX:</em>+1 800 889 9898</p>
+                <p>E-mail: <a href="#">mail@demolink.org</a></p>                                                                            
+            </div>
+        </article>
+        <article class="span8">
+            <h2>Contact form</h2>
+            <form id="contact-form">
+                <div class="success"> Contact form submitted! <strong>We will be in touch soon.</strong> </div>
+                <fieldset>
+                    <div>
+                        <div class="form-div-1">
+                            <label class="name">
+                            <input type="text" value="Name*:">
+                            <br>
+                            <span class="error">*This is not a valid name.</span> <span class="empty">*This field is required.</span> </label>
+                        </div>
+                        <div class="form-div-2">
+                            <label class="email">
+                            <input type="email" value="Email*:">
+                            <br>
+                            <span class="error">*This is not a valid email address.</span> <span class="empty">*This field is required.</span> </label>
+                        </div>
+                        <div class="form-div-3">
+                            <label class="phone notRequired">
+                            <input type="tel" value="Phone:">
+                            <br>
+                            <span class="error">*This is not a valid phone number.</span> <span class="empty">*This field is required.</span> </label>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="message">
+                        <textarea>Message*:</textarea>
+                        <br>
+                        <span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span>
+                        </label>
+                    </div>
+                    <div class="btns">
+                        <a href="#" data-type="submit" class="btn btn-link"><span>Submit</span> <img alt="" src="img/more_arrow.png"></a>
+                        <p>*Required fields</p>
+                    </div>
+                </fieldset>
+            </form>
+        </article>
+    </div>
+</div>
+</div>
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+        <article class="span4 pull-right">
+                <p>Social Profiles</p>
+                <ul class="social_menu">
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">RSS</a></li>
+                    <li><a href="#">Vimeo</a></li>
+                    <li><a href="#">Flickr</a></li>
+                </ul>
+            </article>
+            <article class="span5 pull-left">
+                <ul class="foo_menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index-1.html">Overview</a></li>
+                    <li><a href="index-2.html">Services</a></li>
+                    <li><a href="index-3.html">Blog</a></li>
+                    <li class="active"><a href="index-4.html">Contacts</a></li>
+                </ul>
+                <p>Smart &copy; 2013 | <a href="index-5.html">Privacy Policy</a></p>
+            </article>
+        </div>
+    </div>   
+</footer>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>

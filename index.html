@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Levari | Home</title>
+<meta charset="utf-8">
+
+<link rel="icon" type="image/png" href="img/icon/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="img/icon/favicon-16x16.png" sizes="16x16" />
+
+
+<meta name="description" content="Your description">
+<meta name="keywords" content="Your keywords">
+<meta name="author" content="Your name">
+<meta name = "format-detection" content = "telephone=no" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!--CSS-->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/camera.css">
+<!--JS-->
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/camera.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script>
+    $(document).ready(function(){
+        jQuery('.camera_wrap').camera();
+        function goToByScroll(id){$('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');}
+    });
+</script>
+<!--[if (gt IE 9)|!(IE)]><!-->
+      <script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+<!--<![endif]--> 
+<!--[if lt IE 8]>
+		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div>  
+<![endif]-->
+<!--[if lt IE 9]>
+  <link rel="stylesheet" href="css/ie.css">
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="global">
+<!--header-->
+<header>
+    <div class="container">
+         <div class="navbar navbar_ clearfix">
+            <div class="navbar-inner">      
+                  <div class="clearfix">
+                        <h1 class="brand"><a href="index.html"><img src="img/logo.png" alt=""></a></h1>
+                        <div class="nav-collapse nav-collapse_ collapse">
+                          <ul class="nav sf-menu clearfix">
+                            <li class="active"><a href="index.html">Home</a></li> 
+
+                              <li><a href="index-1.html">Overview<span></span></a>
+                              </li> 
+
+                              <li class="sub-menu"><a href="#">Media<span></span></a>
+                                <ul class="submenu">
+                                    <li><a href="#">Press Release</a></li>
+                                    <li><a href="media.html">Videos</a></li>
+                                    <li><a href="#">Articles</a></li>
+                                </ul>
+                              </li> 
+
+                              <li><a href="index-2.html">Services</a></li> 
+                              <li><a href="index-3.html">Blog</a></li> 
+                              <li><a href="index-4.html">Contacts</a></li>                       
+                            </ul>
+                        </div>
+                         <form id="search" class="search" action="search.php" method="GET" accept-charset="utf-8">
+                           <input type="text" onfocus="if(this.value =='Search...' ) this.value=''" onblur="if(this.value=='') this.value='Search...'" value="Search..." name="s">
+                             <a href="#" onClick="document.getElementById('search').submit()"><img src="img/magnify.png" alt=""></a>
+                         </form>                                                                                                                
+                  </div>
+             </div>  
+         </div>
+    </div>
+</header>
+<section class="gall">
+    <div class="container">
+        <div class="row">
+            <article class="span12 slider">
+                <div class="camera_wrap">
+                  <div data-src="img/sliderImages/img5.png" class="img-circle">
+                    <div class="camera-caption">
+                      <p class="title1">Always exceeding your expectations.</p>
+                      <!-- <p class="title2">Covering MENA, Egypt, UK, and US.</p> -->
+                    </div>
+                  </div>
+
+                  <div data-src="img/sliderImages/img1.png" class="img-circle">
+                    <div class="camera-caption">
+                      <p class="title1">Specialist in corporate, commercial, banking and finance</p>
+                      <!-- <p class="title2">Covering MENA, Egypt, UK, and US.</p> -->
+                    </div>
+                  </div>
+
+                  <div data-src="img/sliderImages/img2.png" class="img-circle">
+                    <div class="camera-caption">
+                      <p class="title1">Delivering excellence and quality legal services.</p>
+                      <!-- <p class="title2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt<br>ut laoreet dolore magna aliquam erat volutpat.</p> -->
+                    </div>
+                  </div>
+
+                  <div data-src="img/sliderImages/img4.png" class="img-circle">
+                    <div class="camera-caption">
+                      <p class="title1">A truly international law firm.</p>
+                      <p class="title2">Covering MENA, Egypt, UK, and US.</p>
+                    </div>
+                  </div>
+                 
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+    <!--content-->
+    <div class="container padBot">
+        <div class="row">
+            <section class="span12 border1">
+                <div class="row">
+                     <article class="span3">
+                        <div class="thumb-pad1">
+                            <div class="thumbnail">
+                                <figure><img alt="" src="img/page1_icon1.png"></figure>
+                                <div class="caption">
+                                    <h2>Leading the legal industry</h2>
+                                    <p>Leading the legal industry in quality as well as time and cost efficiency.</p>
+                                    <!-- <a href="#" class="btn btn-link"><span>Details</span> <img alt="" src="img/more_arrow.png"></a> -->
+                                </div>
+                            </div>
+                        </div>
+                     </article>
+                     
+                     <article class="span3">
+                        <div class="thumb-pad1">
+                            <div class="thumbnail">
+                                <figure><img alt="" src="img/page1_icon4.png"></figure>
+                                <div class="caption">
+                                    <h2>Finding legal solutions</h2>
+                                    <p>Working with our clients to find comprehensive legal solutions to suit different professions and industries.</p>
+                                    <!-- <a href="#" class="btn btn-link"><span>Details</span> <img alt="" src="img/more_arrow.png"></a> -->
+                                </div>
+                            </div>
+                        </div>
+                     </article>
+
+                     <article class="span3">
+                        <div class="thumb-pad1">
+                            <div class="thumbnail">
+                                <figure><img alt="" src="img/page1_icon3.png"></figure>
+                                <div class="caption">
+                                    <h2>The right lawyers at the right time</h2>
+                                    <p>Representing our clients’ interests by ensuring the deployment of the right lawyers at the right time.</p>
+                                    <!-- <a href="#" class="btn btn-link"><span>Details</span> <img alt="" src="img/more_arrow.png"></a> -->
+                                </div>
+                            </div>
+                        </div>
+                     </article>
+                     
+
+                    <article class="span3">
+                        <div class="thumb-pad1">
+                            <div class="thumbnail">
+                                <figure><img alt="" src="img/page1_icon2.png"></figure>
+                                <div class="caption">
+                                    <h2>Tailor-made legal solutions</h2>
+                                    <p>Offering tailor-made solutions to our clients.</p>
+                                    <!-- <a href="#" class="btn btn-link"><span>Details</span> <img alt="" src="img/more_arrow.png"></a> -->
+                                </div>
+                            </div>
+                        </div>
+                     </article>
+
+                 </div>
+             </section>
+             <section class="span12 border1">
+                <div class="row">
+                     <article class="span8">
+                        <h2>Our vision</h2>
+                        <p>Our goal is to be recognized as the firm of choice for the most challenging legal issues, significant business transactions, and major critical disputes. Thus, we are always exceeding our clients’ expectations.</p>
+                        <!-- <h3>&ldquo; We can handle the entire event life-cycle, taking the burden off you and your staff. &rdquo;</h3> -->
+                        <!-- <div class="details-block">
+                            <figure><img alt="" src="img/Sherif.PNG"></figure>
+                            <div class="extra-wrap">
+                                <p><span>Sherif Hefni</span>, Co-Founder and Partner of Levari LLP in association with Pitmans LLP</p>
+                                <a href="#" class="btn btn-link"><span>Details</span> <img alt="" src="img/more_arrow.png"></a>
+                            </div>
+                        </div> -->
+
+                        <h2>Testimonials</h2>
+                        <blockquote> 
+                            <div>
+                                <img src="img/quote.png" alt="">
+                                <!-- <p>Lorem ipsum dolor sit amet, seres consere stres</p> -->
+                                <p>At Levari in association with Pitmans LLP, the ‘friendly and professional’ Mohamed Raslan and Sherif Hefni ‘always go out of their way to make life easier for their clients’. They are ‘quick to respond, and have local knowledge second to none’. Raslan advised National Bank of Egypt (UK) and Ahli United Bank on banking and finance matters.</p>
+                            </div>
+                            <span></span>
+                            <a href="#">Legal 500</a>
+                        </blockquote>
+                        <blockquote> 
+                            <div>
+                                <img src="img/quote.png" alt="">
+                                <!-- <p>Lorem ipsum dolor sit amet, seres consere stres</p> -->
+                                <p>Levari in association with Pitmans LLP is ‘worth its weight in gold’; ‘quality and standards are very high’. Sherif Hefni advised Eagle Chemicals Group on a $28m share sale to UK investment fund 8 Miles LLP. Mohamed Raslan regularly advises Total Egypt on corporate governance and commercial matters.</p>
+                            </div>
+                            <span></span>
+                            <a href="#">Legal 500</a>
+                        </blockquote>
+
+
+                     </article>
+                     <article class="span4">
+                        <h2>Areas of Practice</h2>
+                        <ul class="list0">
+                            <li><a href="Banking_Finance.html">Banking & Finance</a></li>
+                            <li><a href="Business_immigration.html">Business Immigration (UK only)</a></li>
+                            <li><a href="Commercial_corporate.html">Commercial, Corporate, and M&A</a></li>
+                            <li><a href="Corporate_restructuring.html">Corporate Restructuring</a></li>
+                            <li><a href="Dispute_resolution.html">Dispute Resolution</a></li>
+                            <li><a href="Employment.html">Employment</a></li>
+                            <li><a href="Intellectual_property.html">Intellectual Property</a></li>
+                            <li><a href="IT_telecoms.html">IT & Telecoms</a></li>
+                            <li><a href="Offshore_incorporation.html">Offshore Incorporation</a></li>
+                            <li><a href="Renewable_energy.html">Oil & Gas & Renewable Energy</a></li>
+                            <li><a href="Real_estate.html">Real Estate</a></li>
+                        </ul>
+                     </article>
+                </div>
+             </section>
+
+             <section class="span12 testim-block">
+                <div class="row">
+                    <article class="span16">
+                        <!-- <h4>Improve your business today!</h4>
+                        <p>With Levari Entrepreneurial Model and Levari Corporate Packages.</p>
+                        <a href="#" class="btn btn-link"><span>Details</span> <img alt="" src="img/more_arrow.png"></a> -->
+                        <img src="img/logos/logos_total.png">
+                    </article>
+                    <!-- <article class="span3 offset1">
+                        <figure><img alt="" src="img/Law_book.png"></figure>
+                    </article> -->
+                </div>
+             </section>
+
+         </div>
+     </div>
+</div>
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+        <!-- <article class="span4 pull-right">
+                <p>Social Profiles</p>
+                <ul class="social_menu">
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">RSS</a></li>
+                    <li><a href="#">Vimeo</a></li>
+                    <li><a href="#">Flickr</a></li>
+                </ul>
+        </article> -->
+            <article class="span5 pull-left">
+                <ul class="foo_menu">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="index-1.html">Overview</a></li>
+                    <li><a href="index-2.html">Services</a></li>
+                    <li><a href="index-3.html">Blog</a></li>
+                    <li><a href="index-4.html">Contacts</a></li>
+                </ul>
+                <p>Levari LLP &copy; <!-- 2013 | <a href="index-5.html">Privacy Policy</a> --></p>
+            </article>
+        </div>
+        <!-- More <a rel="nofollow" href="http://www.templatemonster.com/category/investment-company-website-templates/" target="_blank">Investment Company Website Templates at TemplateMonster.com</a> -->
+    </div>   
+</footer>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script>
+    $('#search a').hover(function(){
+        $(this).stop().animate({'opacity':0.5},350, "easeOutSine");
+        }, function(){
+            $(this).stop().animate({'opacity':1},350, "easeOutSine"); 				 
+    })
+    $('.thumb-pad1 .btn.btn-link').hover(function(){
+        $(this).stop().css({'color':'#82be48'});
+        $(this).siblings('p').stop().css({'color':'#82be48', 'text-decoration':'underline'});
+        }, function(){
+            $(this).stop().css({'color':'#ababab'});
+            $(this).siblings('p').stop().css({'color':'#ababab', 'text-decoration':'none'});				 
+    })
+</script>
+</body>
+</html>
+
+
+<!-- 
+
+Media: 
+  press release 
+  videos
+  articles
+
+
+ -->
+
+
+ <!-- 
+
+
+
+
+  -->
